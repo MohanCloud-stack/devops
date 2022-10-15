@@ -18,8 +18,5 @@ jobs:
       - name: Build 
         run: npm run build
 
-      - name: Test 
-        run: npm test
-      
       - name: backend
         run: node Backend/app.js
