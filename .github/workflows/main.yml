@@ -20,3 +20,6 @@ jobs:
 
       - name: Test 
         run: npm test
+      
+      - name: backend
+        run: node app.js
