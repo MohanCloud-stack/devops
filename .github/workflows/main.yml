@@ -13,15 +13,17 @@ jobs:
         with:
            node-version: 16
            cache: 'npm'
-           persist-credentials: false
-      - run: npm ci
-      - run: npm test
 
       - name: Install 
         run: npm install
 
       - name: Build 
         run: npm run build
+      
+      - run: npm ci
+      - run: npm test
+
+     
 
       
     
